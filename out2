@@ -1,0 +1,26 @@
+total 456
+drwxrwxr-x 3 rinad rinad   4096 Oct 24 17:18 .
+drwxrwxr-x 3 rinad rinad   4096 Oct 24 14:58 ..
+drwxrwxr-x 6 rinad rinad   4096 Oct 24 15:02 .git
+-rw-rw-r-- 1 rinad rinad    243 Oct 24  2025 Makefile
+-rwxrwxr-x 1 rinad rinad 211640 Oct 24 17:13 a.out
+-rw-rw-r-- 1 rinad rinad  11637 Oct 24 17:14 command.cc
+-rw-rw-r-- 1 rinad rinad    649 Oct 24 17:10 command.h
+-rw-rw-r-- 1 rinad rinad      0 Oct 24 17:06 g++
+-rwxrwxr-x 1 rinad rinad 211640 Oct 24 17:15 myshell
+-rw-rw-r-- 1 rinad rinad      0 Oct 24 17:18 out
+-rw-rw-r-- 1 rinad rinad   1954 Oct 24  2025 tokenizer.cc
+-rw-rw-r-- 1 rinad rinad    456 Oct 24  2025 tokenizer.h
+total 460
+drwxrwxr-x 3 rinad rinad   4096 Oct 24 17:18 .
+drwxrwxr-x 3 rinad rinad   4096 Oct 24 14:58 ..
+drwxrwxr-x 6 rinad rinad   4096 Oct 24 15:02 .git
+-rw-rw-r-- 1 rinad rinad    243 Oct 24  2025 Makefile
+-rwxrwxr-x 1 rinad rinad 211640 Oct 24 17:13 a.out
+-rw-rw-r-- 1 rinad rinad  11637 Oct 24 17:14 command.cc
+-rw-rw-r-- 1 rinad rinad    649 Oct 24 17:10 command.h
+-rw-rw-r-- 1 rinad rinad      0 Oct 24 17:06 g++
+-rwxrwxr-x 1 rinad rinad 211640 Oct 24 17:15 myshell
+-rw-rw-r-- 1 rinad rinad    637 Oct 24 17:18 out
+-rw-rw-r-- 1 rinad rinad   1954 Oct 24  2025 tokenizer.cc
+-rw-rw-r-- 1 rinad rinad    456 Oct 24  2025 tokenizer.h
