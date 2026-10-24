@@ -40,7 +40,7 @@ void sigchld_handler(int sig)
     }
 }
 
-void parse(std::vector<Token> &tokens)  // parse implementation
+void parse(std::vector<Token> &tokens)  // parse implementation to divide
 {
     Command::_currentCommand.clear();
 
