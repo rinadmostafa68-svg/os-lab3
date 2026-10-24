@@ -23,7 +23,8 @@
 #include <sstream>
 #include "command.h"
 #include "tokenizer.h"
-og termination[cite: 4]
+
+// SIGCHLD handler to reap zombie processes and log termination[cite: 4]
 void sigchld_handler(int sig)
 {
     int pid;
