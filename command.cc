@@ -25,20 +25,6 @@
 #include "tokenizer.h"
 
 // SIGCHLD handler to reap zombie processes and log termination[cite: 4]
-void sigchld_handler(int sig)
-{
-    int pid;
-    while ((pid = waitpid(-1, NULL, WNOHANG)) > 0)
-    {
-        FILE *logFile = fopen("shell.log", "a");
-        if (logFile != NULL)
-        {
-            time_t now = time(NULL);
-            fprintf(logFile, "Child process %d terminated at %s", pid, ctime(&now));
-            fclose(logFile);
-        }
-    }
-}
 
 void parse(std::vector<Token> &tokens)  // parse implementation to divide
 {
